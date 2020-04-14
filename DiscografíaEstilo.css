@@ -1,0 +1,117 @@
+* {margin: 0;
+   padding: 0;
+   box-sizing: border-box;}
+
+body {font-family: 'roboto', sans-serif;
+      background-image: url("Fondo.png");
+      background-size: cover;}
+
+.header{background-color: rgb(26, 26, 39);
+        margin-top: 0px;
+        height: 50px;
+        position: fixed;
+        width: 100%;
+        box-shadow: 0 2px 8px rgb(133, 133, 133);
+        z-index: 100;}
+
+.nav {padding-top: 10px;
+      height: 20px;
+      width: 500px;
+      margin: auto}
+
+.contenedorList {float: center;}
+
+.itemMenu {list-style: none;
+           float: left;
+           margin: 0 20px;}
+
+.linkMenu {display: block;
+           border: 1px solid rgb(218, 165, 8);
+           padding: 5px 10px;
+           text-decoration: none;
+           border-radius: 5px;
+           color: rgb(218, 165, 8);}
+
+.linkMenu:hover {color: blanchedalmond;
+                 background-color: rgb(189, 162, 82);}
+
+.main{max-width: 1200px;
+      width: 1200px;
+      margin: auto;
+      height: 2000px;}
+
+.section{width: 100%;
+         float: left;}
+
+.title{text-align: left;
+       margin: 120px 0 40px 0;
+       color: rgb(195, 149, 12);
+       font-size: 72px;}
+
+.tableDisco{border: 1px solid rgb(143, 155, 35);
+            border-collapse: collapse;
+            margin: 30px auto;
+            width: 100%;
+            padding: 20px 10px;}
+
+.tablaDisCon{text-align: center;
+             padding: 10px 15px;
+             color: rgb(246, 222, 6);}
+
+.texto{color: white;
+       font-size: 12px;
+       text-align: center;
+       padding: 20px;
+       font-weight: bolder;}
+
+.imgTableDis{width: 180px;
+             height: 180px;
+             padding: 10px;}
+
+.imgTableDis:hover{box-shadow: 0 0 3px black;
+                   transform: scale(0.8);
+                   transition: all .2s ease-in-out;}
+
+.table{border: 1px solid rgb(143, 155, 35);
+       border-collapse: collapse;
+       margin: 30px auto;
+       width: 100%;}
+              
+.table th , .table td{border: 1px solid rgb(143, 155, 35);
+                      text-align: center;
+                      padding: 10px 15px;
+                      color: rgb(246, 222, 6);}
+                     
+.imgTable{width: 250px;}
+
+     
+.table tr:hover{background-color: rgb(82, 81, 81);}
+
+.footer{background-color: rgb(70, 70, 89);
+        padding: 20px 0 50px;
+        height: 150px;}
+
+.contColsFooter{width: 600px;
+                margin: auto;
+                margin-bottom: 30px;}
+
+.contactTitle{text-align: center;
+              color: rgb(195, 179, 31);
+              font-size: 25px;
+              font-weight: bolder;}
+
+.colsFooter{width: 50%;
+            float: left;
+            margin-top: 20px;}
+
+.colsFooter a{display: block;
+              margin-top: 5px;
+              text-decoration: none;
+              font-size: 18px;}
+        
+.colsFooter p{font-weight: 200;}
+
+.colsFooter a, .colsFooter p{color: rgb(195, 179, 31);
+                             text-align: center;}
+
+.colsFooter a:hover{color: blanchedalmond;}
